@@ -1,0 +1,448 @@
+Command: /home1/B123/KDHaneesh/VLSI_RN_OFFLINE/SV_LABS/Mini_Project/sim/./simv -a vcs.log -vdb -cm_dir ./mem_cov +ntb_random_seed_automatic
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06-SP1_Full64; Runtime version T-2022.06-SP1_Full64;  Jan 31 10:46 2026
+NOTE: automatic random seed used: 922912028
+------------------------------------
+Randomized Data:
+Transaction ID: 1
+Reset : 1
+load : 0
+up_down : 1
+data_in : 1
+------------------------------------
+------------------------------------
+Randomized Data:
+Transaction ID: 2
+Reset : 1
+load : 0
+up_down : 1
+data_in : 9
+------------------------------------
+------------------------------------
+Randomized Data:
+Transaction ID: 3
+Reset : 1
+load : 0
+up_down : 0
+data_in : 7
+------------------------------------
+------------------------------------
+Randomized Data:
+Transaction ID: 4
+Reset : 1
+load : 0
+up_down : 0
+data_in : 9
+------------------------------------
+------------------------------------
+Randomized Data:
+Transaction ID: 5
+Reset : 1
+load : 0
+up_down : 1
+data_in : 10
+------------------------------------
+------------------------------------
+Randomized Data:
+Transaction ID: 6
+Reset : 1
+load : 0
+up_down : 0
+data_in : 9
+------------------------------------
+------------------------------------
+Randomized Data:
+Transaction ID: 7
+Reset : 1
+load : 0
+up_down : 0
+data_in : 4
+------------------------------------
+------------------------------------
+Randomized Data:
+Transaction ID: 8
+Reset : 1
+load : 0
+up_down : 1
+data_in : 0
+------------------------------------
+------------------------------------
+Randomized Data:
+Transaction ID: 9
+Reset : 1
+load : 0
+up_down : 1
+data_in : 11
+------------------------------------
+------------------------------------
+Randomized Data:
+Transaction ID: 10
+Reset : 1
+load : 0
+up_down : 1
+data_in : 5
+------------------------------------
+------------------------------------
+From Write Driver
+15
+Reset : 1
+load : 0
+up_down : 1
+data_in : 1
+count : x
+------------------------------------
+------------------------------------
+From Write Monitor
+15
+Reset : 0
+load : 0
+up_down : 0
+data_in : 0
+count : x
+------------------------------------
+------------------------------------
+From Read Monitor
+15
+Reset : 0
+load : 0
+up_down : 0
+data_in : 0
+count : x
+------------------------------------
+
+ Expected Output : 0
+
+------------------------------------
+From Write Driver
+25
+Reset : 1
+load : 0
+up_down : 1
+data_in : 9
+count : x
+------------------------------------
+------------------------------------
+From Write Monitor
+25
+Reset : 1
+load : 0
+up_down : 1
+data_in : 1
+count : x
+------------------------------------
+------------------------------------
+From Read Monitor
+25
+Reset : 0
+load : 0
+up_down : 0
+data_in : 0
+count : 0
+------------------------------------
+
+ Expected Output : 1
+
+------------------------------------
+From Write Driver
+35
+Reset : 1
+load : 0
+up_down : 0
+data_in : 7
+count : x
+------------------------------------
+------------------------------------
+From Write Monitor
+35
+Reset : 1
+load : 0
+up_down : 1
+data_in : 9
+count : x
+------------------------------------
+------------------------------------
+From Read Monitor
+35
+Reset : 0
+load : 0
+up_down : 0
+data_in : 0
+count : 1
+------------------------------------
+
+ Expected Output : 2
+
+Data Matched
+------------------------------------
+From Write Driver
+45
+Reset : 1
+load : 0
+up_down : 0
+data_in : 9
+count : x
+------------------------------------
+------------------------------------
+From Write Monitor
+45
+Reset : 1
+load : 0
+up_down : 0
+data_in : 7
+count : x
+------------------------------------
+------------------------------------
+From Read Monitor
+45
+Reset : 0
+load : 0
+up_down : 0
+data_in : 0
+count : 2
+------------------------------------
+
+ Expected Output : 1
+
+Data Matched
+------------------------------------
+From Write Driver
+55
+Reset : 1
+load : 0
+up_down : 1
+data_in : 10
+count : x
+------------------------------------
+------------------------------------
+From Write Monitor
+55
+Reset : 1
+load : 0
+up_down : 0
+data_in : 9
+count : x
+------------------------------------
+------------------------------------
+From Read Monitor
+55
+Reset : 0
+load : 0
+up_down : 0
+data_in : 0
+count : 1
+------------------------------------
+
+ Expected Output : 0
+
+Data Matched
+------------------------------------
+From Write Driver
+65
+Reset : 1
+load : 0
+up_down : 0
+data_in : 9
+count : x
+------------------------------------
+------------------------------------
+From Write Monitor
+65
+Reset : 1
+load : 0
+up_down : 1
+data_in : 10
+count : x
+------------------------------------
+------------------------------------
+From Read Monitor
+65
+Reset : 0
+load : 0
+up_down : 0
+data_in : 0
+count : 0
+------------------------------------
+
+ Expected Output : 1
+
+Data Matched
+------------------------------------
+From Write Driver
+75
+Reset : 1
+load : 0
+up_down : 0
+data_in : 4
+count : x
+------------------------------------
+------------------------------------
+From Write Monitor
+75
+Reset : 1
+load : 0
+up_down : 0
+data_in : 9
+count : x
+------------------------------------
+------------------------------------
+From Read Monitor
+75
+Reset : 0
+load : 0
+up_down : 0
+data_in : 0
+count : 1
+------------------------------------
+
+ Expected Output : 0
+
+Data Matched
+------------------------------------
+From Write Driver
+85
+Reset : 1
+load : 0
+up_down : 1
+data_in : 0
+count : x
+------------------------------------
+------------------------------------
+From Write Monitor
+85
+Reset : 1
+load : 0
+up_down : 0
+data_in : 4
+count : x
+------------------------------------
+------------------------------------
+From Read Monitor
+85
+Reset : 0
+load : 0
+up_down : 0
+data_in : 0
+count : 0
+------------------------------------
+
+ Expected Output : 11
+
+Data Matched
+------------------------------------
+From Write Driver
+95
+Reset : 1
+load : 0
+up_down : 1
+data_in : 11
+count : x
+------------------------------------
+------------------------------------
+From Write Monitor
+95
+Reset : 1
+load : 0
+up_down : 1
+data_in : 0
+count : x
+------------------------------------
+------------------------------------
+From Read Monitor
+95
+Reset : 0
+load : 0
+up_down : 0
+data_in : 0
+count : 11
+------------------------------------
+
+ Expected Output : 0
+
+Data Matched
+------------------------------------
+From Write Driver
+105
+Reset : 1
+load : 0
+up_down : 1
+data_in : 5
+count : x
+------------------------------------
+------------------------------------
+From Write Monitor
+105
+Reset : 1
+load : 0
+up_down : 1
+data_in : 11
+count : x
+------------------------------------
+------------------------------------
+From Read Monitor
+105
+Reset : 0
+load : 0
+up_down : 0
+data_in : 0
+count : 0
+------------------------------------
+
+ Expected Output : 1
+
+Data Matched
+------------------------------------
+From Write Monitor
+115
+Reset : 1
+load : 0
+up_down : 1
+data_in : 5
+count : x
+------------------------------------
+------------------------------------
+From Read Monitor
+115
+Reset : 0
+load : 0
+up_down : 0
+data_in : 0
+count : 1
+------------------------------------
+
+ Expected Output : 2
+
+Data Matched
+------------------------------------
+From Write Monitor
+125
+Reset : 1
+load : 0
+up_down : 1
+data_in : 5
+count : x
+------------------------------------
+------------------------------------
+From Read Monitor
+125
+Reset : 0
+load : 0
+up_down : 0
+data_in : 0
+count : 2
+------------------------------------
+
+ Expected Output : 3
+
+Data Matched
+-----------------------Report---------------------
+Total no of transaction : 10
+No of transactions Verified : 10
+No of transactions succesfully verified : 10
+No of transactions unsuccesful : 0
+$finish called from file "../top.sv", line 30.
+$finish at simulation time                  125
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 125
+CPU Time:      0.340 seconds;       Data structure size:   0.0Mb
+Sat Jan 31 10:46:31 2026
